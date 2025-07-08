@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    printf("Decimal: %d",35);
-    printf("Octal: %d",43);
-    printf("Hexadecimal: %d",23);
+    printf("Decimal: %u\n",35);
+    printf("Octal: %o\n",35);
+    printf("Hexadecimal: %x\n",35);
 }
