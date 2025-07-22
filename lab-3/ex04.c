@@ -29,7 +29,7 @@ int main()
     printf("Enter your Computer programming score: ");
     scanf("%d",&Com);
 
-    avg = (Cal + Phy + Com) / 3;
+    avg = (Cal + Phy + Com) / 3.0;
 
     printf("%s, your average is %.2f. You got grade %c\n",name , avg , grade(avg));
 
